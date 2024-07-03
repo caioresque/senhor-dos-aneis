@@ -1,0 +1,684 @@
+@media (min-width: 320px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    .personagem h2 {
+        text-align: center;
+        margin-left: 0; /* Remover margem à esquerda se necessário */
+    }
+
+    @media (min-width: 320px) { 
+
+        .logo img {
+            margin-left: 1em;
+            max-width: 320px;
+            width: 100%;
+            height: auto;
+        }
+    
+        #icon img {
+            margin-left: 2.5em;
+            margin-top: -3em;
+            max-width: 320px;
+            width: 100%;
+            height: auto;
+        }
+    
+        #anel img {
+            margin-left: 3.5em;
+            margin-top: 5em;
+            max-width: 320px;
+            height: auto;
+        }
+    
+        #anel h2 {
+            margin-left: 1em;
+        }
+    
+        #anel p {
+            margin-left: 1em;
+            max-width: 320px;
+        }
+    
+        #principal img {
+            margin-left: 1.8em;
+            margin-top: 1em;
+            max-width: 320px;
+            width: 100%;
+            height: auto;
+        }
+    
+        #principal h2 {
+            margin-left: 0em;
+            margin-top: 1em;
+        }
+    
+        #principal p {
+            margin-left: 0.8em;
+            max-width: 320px;
+        }
+    
+        #sauron img {
+            margin-left: 1.5em;
+            margin-top: 1em;
+            max-width: 320px;
+            width: 100%;
+            height: auto;
+        }
+    
+        #sauron h2 {
+            margin-left: 0em;
+        }
+    
+        #sauron p {
+            margin-left: 0.8em;
+            max-width: 320px;
+        }
+    
+        #orc img {
+            margin-left: 1em;
+            margin-top: 3em;
+            max-width: 320px;
+            width: 100%;
+            height: auto;
+        }
+    
+        #orc h2 {
+            margin-left: 0em;
+            margin-top: 1em;
+        }
+    
+        #orc p {
+            margin-left: 0.8em;
+            max-width: 320px;
+        }
+    
+        #gollum img {
+            margin-left: 1.5em;
+            margin-top: 1em;
+            max-width: 320px;
+            width: 100%;
+            height: auto;
+        }
+    
+        #gollum h2 {
+            margin-left: 0em;
+        }
+    
+        #gollum p {
+            margin-left: 1em;
+            max-width: 320px;
+        }
+    
+        /* Adicione esta parte para centralizar os títulos */
+        .personagem h2 {
+            text-align: center;
+            margin-left: 0; /* Remover margem à esquerda */
+        }
+    }
+    
+    @media (min-width: 480px) {
+        .logo img {
+            margin-left: 0.3em;
+            max-width: 480px;
+            width: 100%;
+            height: auto;
+        }
+    
+        #icon img {
+            margin-left: 2.5em;
+            margin-top: -3em;
+            max-width: 480px;
+            width: 86%;
+            height: auto;
+        }
+    
+        #anel img {
+            margin-left: 6em;
+            margin-top: 5em;
+            max-width: 480px;
+            height: auto;
+        }
+    
+        #anel h2 {
+            margin-left: 1em;
+        }
+    
+        #anel p {
+            margin-left: 0em;
+            max-width: 480px;
+            height: auto;
+            font-size: medium;
+        }
+    
+        #principal img {
+            margin-left: 1.8em;
+            margin-top: 1em;
+            max-width: 480px;
+            width: 90%;
+        }
+    
+        #principal h2 {
+            margin-left: 1em;
+            margin-top: 1em;
+        }
+    
+        #principal p {
+            margin-left: 0em;
+            max-width: 480px;
+            height: auto;
+            font-size: medium;
+        }
+    
+        #sauron img {
+            margin-left: 1.5em;
+            margin-top: 3em;
+            max-width: 480px;
+            width: 88%;
+            height: auto;
+        }
+    
+        #sauron h2 {
+            margin-left: 1em;
+        }
+    
+        #sauron p {
+            margin-left: 0em;
+            max-width: 480px;
+            height: auto;
+            font-size: medium;
+        }
+    
+        #orc img {
+            margin-left: 2.5em;
+            margin-top: 2.5em;
+            max-width: 480px;
+            width: 75%;
+            height: auto;
+        }
+    
+        #orc h2 {
+            margin-left: 1em;
+            margin-top: 1em;
+        }
+    
+        #orc p {
+            margin-left: 0em;
+            max-width: 480px;
+            height: auto;
+            font-size: medium;
+        }
+    
+        #gollum img {
+            margin-left: 2em;
+            margin-top: 1em;
+            max-width: 480px;
+            width: 78%;
+            height: auto;
+        }
+    
+        #gollum h2 {
+            margin-left: 0.2em;
+        }
+    
+        #gollum p {
+            margin-left: 0em;
+            max-width: 480px;
+            height: auto;
+            font-size: medium;
+        }
+    }
+    
+    @media (min-width: 600px) {
+        .logo img {
+            margin-left: 0.5em;
+            max-width: 600px;
+            width: 100%;
+            height: auto;
+        }
+    
+        #icon img {
+            margin-left: 2.8em;
+            margin-top: -3em;
+            max-width: 600px;
+            width: 86%;
+            height: auto;
+        }
+    
+        #anel img {
+            margin-left: 10em;
+            margin-top: 5em;
+            max-width: 600px;
+            height: auto;
+        }
+    
+        #anel h2 {
+            margin-left: 0em;
+        }
+    
+        #anel p {
+            margin-left: 0em;
+            max-width: 600px;
+            height: auto;
+            font-size: medium;
+        }
+    
+        #principal img {
+            margin-left: 4em;
+            margin-top: 3em;
+            max-width: 600px;
+            width: 86%;
+        }
+    
+        #principal h2 {
+            margin-left: 0em;
+            margin-top: 1em;
+        }
+    
+        #principal p {
+            margin-left: 0em;
+            max-width: 600px;
+            height: auto;
+            font-size: medium;
+        }
+    
+        #sauron img {
+            margin-left: 4.5em;
+            margin-top: 3em;
+            max-width: 600px;
+            width: 75%;
+            height: auto;
+        }
+    
+        #sauron h2 {
+            margin-left: 0em;
+        }
+    
+        #sauron p {
+            margin-left: 0em;
+            max-width: 600px;
+            height: auto;
+            font-size: medium;
+        }
+    
+        #orc img {
+            margin-left: 2.5em;
+            margin-top: 3em;
+            max-width: 600px;
+            width: 75%;
+            height: auto;
+        }
+    
+        #orc h2 {
+            margin-left: 0em;
+            margin-top: 1em;
+        }
+    
+        #orc p {
+            margin-left: 3.5em;
+            max-width: 600px;
+            height: auto;
+            font-size: medium;
+        }
+    
+        #gollum img {
+            margin-left: 4em;
+            margin-top: 4em;
+            max-width: 600px;
+            width: 78%;
+            height: auto;
+        }
+    
+        #gollum h2 {
+            margin-left: 0em;
+        }
+    
+        #gollum p {
+            margin-left: 3.5em;
+            max-width: 600px;
+            height: auto;
+            font-size: medium;
+        }
+    }
+    
+    @media (min-width: 801px) {
+        .logo img {
+            margin-left: 3em;
+            max-width: 801px;
+            width: 100%;
+            height: auto;
+        }
+    
+        #icon img {
+            margin-left: 7.5em;
+            margin-top: -3em;
+            max-width: 801px;
+            width: 70%;
+            height: auto;
+        }
+    
+        #anel img {
+            margin-left: 17em;
+            margin-top: 5em;
+            max-width: 801px;
+            height: auto;
+        }
+    
+        #anel h2 {
+            margin-left: 1em;
+        }
+    
+        #anel p {
+            margin-left: 0em;
+            max-width: 801px;
+            height: auto;
+            font-size: medium;
+        }
+    
+        #principal img {
+            margin-left: 10em;
+            margin-top: 1em;
+            max-width: 801px;
+            width: 65%;
+        }
+    
+        #principal h2 {
+            margin-left: 1em;
+            margin-top: 1em;
+        }
+    
+        #principal p {
+            margin-left: 0em;
+            max-width: 801px;
+            height: auto;
+            font-size: medium;
+        }
+    
+        #sauron img {
+            margin-left: 8em;
+            margin-top: 3em;
+            max-width: 801px;
+            width: 65%;
+            height: auto;
+        }
+    
+        #sauron h2 {
+            margin-left: 0em;
+        }
+    
+        #sauron p {
+            margin-left: 0em;
+            max-width: 801px;
+            height: auto;
+            font-size: medium;
+        }
+    
+        #orc img {
+            margin-left: 10em;
+            margin-top: 2.5em;
+            max-width: 801px;
+            width: 50%;
+            height: auto;
+        }
+    
+        #orc h2 {
+            margin-left: 0em;
+            margin-top: 1em;
+        }
+    
+        #orc p {
+            margin-left: 0em;
+            max-width: 801px;
+            height: auto;
+            font-size: medium;
+        }
+    
+        #gollum img {
+            margin-left: 11em;
+            margin-top: 3em;
+            max-width: 801px;
+            width: 50%;
+            height: auto;
+        }
+    
+        #gollum h2 {
+            margin-left: 0.2em;
+        }
+    
+        #gollum p {
+            margin-left: 0em;
+            max-width: 801px;
+            height: auto;
+            font-size: medium;
+        }
+    }
+    
+    
+    @media (min-width: 1025px) {
+        .logo img {
+            margin-left: 7em;
+            max-width: 1025px;
+            width: 120%;
+            height: auto;
+        }
+    
+        #icon img {
+            margin-left: 12.5em;
+            margin-top: -3em;
+            max-width: 1025px;
+            width: 65%;
+            height: auto;
+        }
+    
+        #anel img {
+            margin-left: 27em;
+            margin-top: 5em;
+            max-width: 1025px;
+            height: auto;
+        }
+    
+        #anel h2 {
+            margin-left: 1em;
+        }
+    
+        #anel p {
+            margin-left: 2em;
+            max-width: 1025px;
+            height: auto;
+            font-size: large;
+        }
+    
+        #principal img {
+            margin-left: 22em;
+            margin-top: 1em;
+            max-width: 1025px;
+            width: 45%;
+        }
+    
+        #principal h2 {
+            margin-left: 1em;
+            margin-top: 1em;
+        }
+    
+        #principal p {
+            margin-left: 2.5em;
+            max-width: 1025px;
+            height: auto;
+            font-size: medium;
+        }
+    
+        #sauron img {
+            margin-left: 20em;
+            margin-top: 3em;
+            max-width: 1025px;
+            width: 50%;
+            height: auto;
+        }
+    
+        #sauron h2 {
+            margin-left: 3.5em;
+        }
+    
+        #sauron p {
+            margin-left: 2.5em;
+            max-width: 1025px;
+            height: auto;
+            font-size: medium;
+        }
+    
+        #orc img {
+            margin-left: 19em;
+            margin-top: 2.5em;
+            max-width: 1025px;
+            width: 40%;
+            height: auto;
+        }
+    
+        #orc h2 {
+            margin-left: 0em;
+            margin-top: 1em;
+        }
+    
+        #orc p {
+            margin-left: 2.5em;
+            max-width: 1025px;
+            height: auto;
+            font-size: medium;
+        }
+    
+        #gollum img {
+            margin-left: 22em;
+            margin-top: 3em;
+            max-width: 1025px;
+            width: 40%;
+            height: auto;
+        }
+    
+        #gollum h2 {
+            margin-left: 0.2em;
+        }
+    
+        #gollum p {
+            margin-left: 2.5em;
+            max-width: 1025px;
+            height: auto;
+            font-size: medium;
+        }
+
+    }
+    
+    @media (min-width: 1281px) {
+        .logo img {
+            margin-left: 10em;
+            max-width: 1281px;
+            width: 150%;
+            height: auto;
+        }
+    
+        #icon img {
+            margin-left: 23em;
+            margin-top: -10em;
+            max-width: 1281px;
+            width: 50%;
+            height: auto;
+        }
+    
+        #anel img {
+            margin-left: 37em;
+            margin-top: 5em;
+            max-width: 1281px;
+            height: auto;
+            width: 20%;
+        }
+    
+        #anel h2 {
+            margin-left: 0em;
+        }
+    
+        #anel p {
+            margin-left: 6em;
+            max-width: 1281px;
+            height: auto;
+            font-size: large;
+        }
+    
+        #principal img {
+            margin-left: 30em;
+            margin-top: 5em;
+            max-width: 1281px;
+            width: 40%;
+        }
+    
+        #principal h2 {
+            margin-left: -2em;
+            margin-top: 1em;
+        }
+    
+        #principal p {
+            margin-left: 6em;
+            max-width: 1281px;
+            height: auto;
+            font-size: medium;
+        }
+    
+        #sauron img {
+            margin-left: 30em;
+            margin-top: 5em;
+            max-width: 1281px;
+            width: 40%;
+            height: auto;
+        }
+    
+        #sauron h2 {
+            margin-left: 1em;
+        }
+    
+        #sauron p {
+            margin-left: 7em;
+            max-width: 1281px;
+            height: auto;
+            font-size: medium;
+        }
+    
+        #orc img {
+            margin-left: 32em;
+            margin-top: 5em;
+            max-width: 1281px;
+            width: 30%;
+            height: auto;
+        }
+    
+        #orc h2 {
+            margin-left: 0em;
+            margin-top: 1em;
+        }
+    
+        #orc p {
+            margin-left: 5.5em;
+            max-width: 1281px;
+            height: auto;
+            font-size: large;
+        }
+    
+        #gollum img {
+            margin-left: 28em;
+            margin-top: 5em;
+            max-width: 1281px;
+            width: 35%;
+            height: auto;
+        }
+    
+        #gollum h2 {
+            margin-left: 0.2em;
+        }
+    
+        #gollum p {
+            margin-left: 8em;
+            max-width: 1281px;
+            height: auto;
+            font-size: medium;
+        }
+    }
+    
+}
